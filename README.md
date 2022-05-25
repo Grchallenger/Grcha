@@ -16,10 +16,17 @@
 데이콘에서 제공받은 Auction_master_train.csv 파일에서 해당 주소의 실제 낙찰가를 확인할 수 있는데, 135,330,000원(1억3천5백3십3만원)에 낙찰된 것을 확인할 수 있다. 
 ![image](https://user-images.githubusercontent.com/101695209/170307838-bdaf1ef2-cf87-46b8-891f-8198552a7936.png)
 ![image](https://user-images.githubusercontent.com/101695209/170307854-4d18f2a9-23c3-47c9-8879-5799d9681d14.png)
+
+
 이번에는 상단에 위치한 표에서 7개 의 데이터를 가지고 예측모델을 통해 분석한 결과, 예측모델은 아래의 표와 같은 예측을 내놨다. 평균 낙찰 금액은 138,200,176원(1억3천8백2십만원)의 값을 예측하였다. 실제 낙찰가와 예측모델의 차이는  이므로 약 289만원 의 차이를 나타내었다. 
+
 ![image](https://user-images.githubusercontent.com/101695209/170307906-8198cf7b-ad7e-4a9d-9675-990d1a2f17a5.png)
-![image](https://user-images.githubusercontent.com/101695209/170307925-79cbf14f-b2a5-4aa4-a6fe-974a7643f330.png)
 오차율은 위 와 같은 공식으로 구할 수 있는데, 약 2.12%의 오차율을 나타냈다. 이렇듯, 정확한 예측가격은 바탕으로 만든 데이터모델을 제공할 수 있다는 것이 과제의 가장 큰 장점이다.
+
+
+![image](https://user-images.githubusercontent.com/101695209/170307925-79cbf14f-b2a5-4aa4-a6fe-974a7643f330.png)
+
+
 
 
 ![image](https://user-images.githubusercontent.com/101695209/166148627-371557f8-5d3d-4272-9e83-e69c564cf322.png)
