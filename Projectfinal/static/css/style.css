@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.title_text{
+    color:black;
+    font-size: 23px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin : 0;
+}
+/*carousel-inner*/
+.carousel-inner > .item {
+    position: relative;
+}
+
+/*carousel-caption 위치*/
+.carousel-caption {
+    position: absolute;
+    top: 58%;
+    transform: translateY(-50%);
+}
+/*carousel-caption h5*/
+.carousel-inner h5{
+    font-size: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*carousel-caption p*/
+.carousel-inner p{
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+video {
+    object-fit: fill;
+}
+
+/*폼 입력 텍스트박스 디자인*/
+/*회색 동그란 디자인*/
+/*input, select{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}*/
+/*밑줄 디자인*/
+input, select{
+    width: 200px;
+    height: 50px;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom:3px solid black;
+    background-color:none;
+}
+
+/*입력값 폰트 적용*/
+input[type="text"],[type="number"]{
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*입력 부분 자리 표시자 디자인*/
+input::placeholder {
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+/*주거 형태 드롭 박스 디자인*/
+/*주거 형태 자리 표시자 디자인*/
+select:required:invalid {
+    color: gray;
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/*드롭 박스를 내렸을 때 주거 형태는 안보이게 처리*/
+option[value=""][disabled] {
+    display: none;
+}
+
+/*드롭 박스에서 선택된 값*/
+select:valid {
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*드롭 박스를 내렸을 때 보이는 값 */
+select option {
+    color: black;
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*폼 outer 위치,크기*/
+div#div_outer_input{
+    width: 1200px;
+    height: 200px;
+    /*border: 3px solid;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+/*폼 inner 위치,크기*/
+div#div_inner_input{
+    width: 850px;
+    height: 100px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*주소 입력하고 누르는 버튼 디자인*/
+#hammer_price{
+    position: absolute;
+    height:35px;
+    width:35px;
+    border : 2px solid black;
+    background-color :rgba(0,0,0,0);
+    color:black;
+    margin-top:10px;
+    margin-left:5px;
+    padding : 5px
+    border-radius : 50px;
+    border-radius : 50px;
+ }
+
+/*버튼을 갖다 대었을 때 색 변하게 하기*/
+#hammer_price:hover {
+    color: white;
+    background-color: black;
+}
+
+/*결과 outer 위치,크기*/
+div#result_outer{
+    width: 1200px;
+    height: 300px;
+    /*border: 3px solid;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+/*결과 inner 위치,크기*/
+div#result_inner{
+    width: 900px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
