@@ -1,0 +1,107 @@
+{
+    "swagger": "2.0",
+    "basePath": "/",
+    "paths": {
+        "/inference": {
+            "post": {
+                "parameters": [
+                    {
+                        "name": "minimum_sales_price",
+                        "in": "formData",
+                        "description": "",
+                        "required": true,
+                        "type": "string"
+
+                    },
+                    {
+                        "name": "addr_dong",
+                        "in": "formData",
+                        "description": "",
+                        "required": true,
+                        "type": "string"
+
+                    },
+                    {
+                        "name": "apartment_usage",
+                        "in": "formData",
+                        "description": "",
+                        "required": true,
+                        "type": "string"
+
+                    },
+                    {
+                        "name": "auction_count",
+                        "in": "formData",
+                        "description": "",
+                        "required": true,
+                        "type": "string"
+
+                    }
+                ],
+                "description": "\nSearch Similar",
+                "tags": ["Prediction API"],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "500": {
+                        "description": "Failure"
+                    }
+                },
+            }
+        },
+        "/test": {
+            "post": {
+                "parameters": [
+                    {
+                        "name": "file",
+                        "in": "formData",
+                        "description": "",
+                        "required": true,
+                        "type": "file"
+
+                    },
+                    {
+                        "name": "sub",
+                        "in": "formData",
+                        "description": "",
+                        "required": true,
+                        "type": "file"
+
+                    }
+                ],
+                "description": "\nSearch Similar",
+                "tags": ["Prediction API"],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "500": {
+                        "description": "Failure"
+                    }
+                }
+            }
+        }
+    },
+    "info": {
+        "title": "Prediction Real Estate API",
+        "version": "0.1",
+        "description": "Lee Kun",
+        "termsOfService": "/"
+    },
+    "produces": ["application/json"],
+    "consumes": ["multipart/form-data"],
+    "tags": [{
+            "name": "Prediction API",
+            "description": "Test / Inference"
+        }
+    ],
+    "responses": {
+        "ParseError": {
+            "description": "When a mask can't be parsed"
+        },
+        "MaskError": {
+            "description": "When any error occurs on mask"
+        }
+    }
+}

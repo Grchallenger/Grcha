@@ -1,0 +1,15 @@
+body {
+   margin:0;
+   padding:0;
+}
+
+/*점보트론 디자인*/
+.jumbotron {
+  align-items: center;
+  display: flex;
+  /* 이미지 원본 주소 : https://notefolio.net/hongsungwoo/60528 */
+  background-image: url('https://cdn.notefolio.net/img/0e/5c/0e5ca118cb5412748f8b3eb4801648acf4199140cda56d4685235043ac0b425f_v1.jpg');
+  background-size: cover;
+  height: 60vh; /* Add this */
+  color: white;
+}

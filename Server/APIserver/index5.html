@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아파트 경매 가격 예측</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">Apartment Auction Prediction</a>
+        </div>
+    </nav>
+    <!--jumbotron start-->
+    <section class="jumbotron">
+        <div class="container">
+            <h1 class="text-center">APARTMENT</h1>
+            <p class="text-center">Auction Prediction</p>
+        </div>
+    </section>
+    <header>
+        <div class="container">
+            <div class=allgemein>
+                <!--search-wrapper-->
+
+                <input type="number" id="startprice" placeholder="시작가 ex)1500000000">
+                <!--contry-inp-->
+                <input type="text" id="address" placeholder="주소 ex)서초동">
+                <input type="text" id="format" placeholder="ex)주상복합/아파트">
+                <input type="number" id="zahl" placeholder="유찰횟수 ex)1">
+
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+    </header>
+    <div id="result" class="hammer_price">
+
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

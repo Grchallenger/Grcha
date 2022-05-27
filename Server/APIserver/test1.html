@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>아파트 경매 가격 예측</title>
+  <link rel="stylesheet" href="css/test2.css" > <!--https://exchangeinfo.tistory.com/65 참고-->
+
+        <!-- bootstrap css -->
+  <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+</head>
+  <body>
+     <script src="https://code.jquery.com/jquery-3.5.1.js"
+          integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+          crossorigin="anonymous"></script>
+    </h3>
+    <form action = "http://192.168.0.6:5001/inference" method = "POST"
+          enctype = "multipart/form-data">
+      <input type = "number" name = "minimum_sales_price">
+      <input type = "text" name = "addr_dong">
+      <input type = "text" name = "apartment_usage">
+      <input type = "number" name = "auction_count">
+      <input type = "submit" />
+      <br>
+      <p>테스트</p>
+
+
+    </form>
+    <br>
+    <br>
+    <br>
+
+  </body>
+</html>
