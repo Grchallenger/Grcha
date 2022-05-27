@@ -31,7 +31,7 @@
 
 
 
-
+## 사용된 기술
 ![image](https://user-images.githubusercontent.com/101695209/166148627-371557f8-5d3d-4272-9e83-e69c564cf322.png)
 
 ## 스케줄표
