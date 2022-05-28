@@ -32,7 +32,7 @@
 
 
 
-![image](https://user-images.githubusercontent.com/101695209/166148627-371557f8-5d3d-4272-9e83-e69c564cf322.png)
+![image](https://user-images.githubusercontent.com/101695209/170828385-7dd7fa81-c69c-46ae-b266-11f75aa64923.png)
 
 ## 스케줄표
 ![image](https://user-images.githubusercontent.com/101695209/170307465-82019cf3-a723-4c96-a299-8e319d839bf8.png)
