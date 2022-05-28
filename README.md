@@ -32,7 +32,9 @@
 
 
 
-![image](https://user-images.githubusercontent.com/101695209/170828385-7dd7fa81-c69c-46ae-b266-11f75aa64923.png)
+## 모델 도식도
+![image](https://user-images.githubusercontent.com/101695209/170828429-610b0226-9ea3-46d3-92f5-2777c74d1837.png)
+
 
 ## 스케줄표
 ![image](https://user-images.githubusercontent.com/101695209/170307465-82019cf3-a723-4c96-a299-8e319d839bf8.png)
