@@ -29,6 +29,8 @@
 
 ![image](https://user-images.githubusercontent.com/101695209/170307925-79cbf14f-b2a5-4aa4-a6fe-974a7643f330.png)
 
+## HTML/CSS 로 메인 화면 구현
+![image](https://user-images.githubusercontent.com/101695209/170828489-fc31e46b-b769-4f4f-bc84-d93fc433b360.png)
 
 
 
